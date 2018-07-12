@@ -20,6 +20,10 @@
 a {
     color: white;
 }
+a:hover, a:active {
+    color: white;
+    opacity: 0.6;
+}
 p {
     font-size: 18px;
     line-height: 27px;
@@ -27,6 +31,8 @@ p {
 }
 h1 {
     color: white;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 100;
 }
 .js_nav {
     position: absolute;
@@ -78,13 +84,16 @@ h1 {
     text-align: center;
     margin: 50px auto;
 }
-.js_footer ul {
-    width: fit-content;
-    margin: auto;
+.js_social {
+   position: fixed;
+    bottom: 10px;
+    right: 30px;
+
 }
-.js_footer ul li {
-    display: inline-block;
-    margin: 15px;
+.js_social li {
+    width: 20px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 .mobile-nav {
     display: none;
@@ -102,6 +111,11 @@ h1 {
 .arrow-right {
     right: -20px;
 }
+#map {
+    width: 750px;
+    height: 500px;
+}
+
 @media only screen and (max-width: 768px) {
     .desktop-nav {
         display: none;
