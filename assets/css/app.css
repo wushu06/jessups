@@ -82,7 +82,7 @@ p {
 }
 .js_footer ul li {
     display: inline-block;
-    margin: 30px;
+    margin: 15px;
 }
 .mobile-nav {
     display: none;
@@ -95,10 +95,10 @@ p {
     width: 40px;
 }
 .arrow-left {
-    left: 10px;
+    left: -20px;
 }
 .arrow-right {
-    right: 10px;
+    right: -20px;
 }
 @media only screen and (max-width: 768px) {
     .desktop-nav {
@@ -111,6 +111,9 @@ p {
         left: 50%;
         transform: translateX(-50%);
 
+    }
+    #service .container {
+        width: 80%;
     }
     div#fullpage {
 
