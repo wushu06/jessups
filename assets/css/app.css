@@ -18,11 +18,15 @@
     width: 100%;
 }
 a {
-    color: black;
+    color: white;
 }
 p {
     font-size: 18px;
     line-height: 27px;
+    color: white;
+}
+h1 {
+    color: white;
 }
 .js_nav {
     position: absolute;
@@ -69,9 +73,7 @@ p {
     border: none;
     outline: none;
 }
-.slider-navigation>li>a {
-    border-radius: 0;
-}
+
 .js_heading {
     text-align: center;
     margin: 50px auto;
