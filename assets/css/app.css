@@ -5,6 +5,7 @@
  $oragne = #e36335;
  $blue = #3b3d63;
  $brown = #bbb0a5;
+ $golden = #A58242;
  */
 
 .js_logo {
@@ -29,10 +30,31 @@ p {
     line-height: 27px;
     color: white;
 }
+
+#home {
+    background: url('../img/halfLogo.svg') no-repeat;
+}
+#service {
+    background: url('../img/halfLogoService.svg') no-repeat;
+}
+#about {
+    background: url('../img/halfLogoAbout.svg') no-repeat;
+}
+#find {
+    background: url('../img/halfLogoFind.svg') no-repeat;
+}
+#home, #about, #service, #find {
+    background-size: 550px;
+    background-position: 0px 67vh;
+}
 h1 {
     color: white;
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 100;
+    font-size: 4rem;
+}
+.js_golden {
+    color: #A58242;
 }
 .js_nav {
     position: absolute;
@@ -67,22 +89,63 @@ h1 {
     z-index: 999;
     cursor: pointer;
 }
-.js_addborder {
-    border-bottom: 1px solid white !important;
+
+span.moveTo2.js_addborder {
+    color: #3b3d63;
+}
+span.moveTo3.js_addborder {
+    color: #e36335;
+}
+span.moveTo4.js_addborder {
+    color: #bbb0a5;
 }
 .js_anchors button {
     display: block;
-    padding:10px;
+
     margin: 10px;
     background: transparent;
     color: white;
-    border: none;
+    width: 13px;
+    height: 13px;
     outline: none;
+    border-radius: 50%;
+    border: 3px solid white;
+    opacity: 0.5;
+}
+button.moveTo1.js_addborder {
+    opacity: 1;
+}
+button.moveTo2.js_addborder {
+    opacity: 1;
+}
+button.moveTo3.js_addborder {
+    opacity: 1;
+}
+button.moveTo4.js_addborder {
+    opacity: 1;
 }
 
 .js_heading {
     text-align: center;
     margin: 50px auto;
+}
+.js_prfile_img{
+    position: relative;
+}
+.js_prfile_img i {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 60px;
+    transform: translate(25%, 20%);
+    color:#e36335;
+}
+.js_profile {
+    border-radius: 50%;
+}
+.js_profile-content h4 {
+    color: #e36335;
+    margin: 30px 0;
 }
 .js_social {
    position: fixed;
