@@ -11,9 +11,10 @@
 .js_logo {
     position: fixed;
     top: 30px;
-    left: 30px;
-    max-width: 200px;
+    left: 50px;
+    max-width: 180px;
     z-index: 999;
+    cursor: pointer;
 }
 .js_logo svg {
     width: 100%;
@@ -60,8 +61,8 @@ h1 {
     position: absolute;
     top: 30px;
     z-index: 9999;
-    right: 30px;
-    padding:  30px;
+    right: 20px;
+    padding: 30px 0;
 }
 .js_nav ul li{
     display: inline;
@@ -72,6 +73,10 @@ h1 {
 .js_nav ul li span{
     cursor: pointer;
     color: white;
+}
+.js_nav ul li span:hover{
+    opacity: 0.5;
+    transition: 0.2s ease;
 }
 .js_half-logo {
     width: 100%;
@@ -84,7 +89,7 @@ h1 {
 .js_anchors {
     position: fixed;
     top:50%;
-    right: 10px;
+    right: 45px;
     transform: translateY(-50%)t;
     z-index: 999;
     cursor: pointer;
@@ -101,8 +106,7 @@ span.moveTo4.js_addborder {
 }
 .js_anchors button {
     display: block;
-
-    margin: 10px;
+    margin: 10px 0;
     background: transparent;
     color: white;
     width: 13px;
@@ -125,12 +129,70 @@ button.moveTo4.js_addborder {
     opacity: 1;
 }
 
+#slider {
+    position: relative;
+}
+#slider .vertical-line {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 2px;
+    height: 200%;
+    content: '';
+    background: white;
+    opacity: 0.4;
+}
+#service .v_wrapper {
+    position: relative;
+}
+#service .v_wrapper .vertical-line {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    width: 2px;
+    height: 100%;
+    content: '';
+    background: white;
+    opacity: 0.4;
+}
+#service h2 {
+    color: #3b3d63;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+#service ul li {
+    color: white;
+    padding: 0 0 15px 15px;
+    position: relative;
+}
+#service ul li:before {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    transform: translate(-50%, -50%);
+    content: '';
+    background: white;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 10px;
+
+}
 .js_heading {
     text-align: center;
     margin: 50px auto;
 }
 .js_prfile_img{
     position: relative;
+}
+.js_prfile_img img{
+    margin: auto;
+}
+.js_prfile_img:hover i {
+    color: white;
+    transition: 0.2s ease;
 }
 .js_prfile_img i {
     position: absolute;
@@ -150,7 +212,7 @@ button.moveTo4.js_addborder {
 .js_social {
    position: fixed;
     bottom: 10px;
-    right: 30px;
+    right: 43px;
 
 }
 .js_social li {
@@ -174,12 +236,54 @@ button.moveTo4.js_addborder {
 .arrow-right {
     right: -20px;
 }
+#find h2 {
+    color: #bbb0a5;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+#find .v_wrapper {
+    position: relative;
+}
+#find .v_wrapper .vertical-line {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    width: 2px;
+    height: 120%;
+    content: '';
+    background: white;
+    opacity: 0.4;
+}
 #map {
-    width: 750px;
+    width: 650px;
     height: 500px;
+    margin: auto;
 }
 
+
+@media only screen and (max-width: 991px) {
+    .desktop-only {
+        display: none !important;
+    }
+    #map {
+        margin: 20px 0;
+        width: 100%;
+    }
+    .vertical-line {
+        display: none;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    #home .col-md-12 {
+        padding: 20px !important;
+    }
+}
 @media only screen and (max-width: 768px) {
+    #home, #about, #service, #find {
+        background-size: 85%;
+    }
     .desktop-nav {
         display: none;
     }
@@ -192,6 +296,9 @@ button.moveTo4.js_addborder {
 
     }
     #service .container {
+        width: 80%;
+    }
+    #about .container {
         width: 80%;
     }
     div#fullpage {
@@ -212,4 +319,17 @@ button.moveTo4.js_addborder {
     .slider__content .col-md-12:first-child {
         margin-top: 100px;
     }
+    h1 {
+        font-size: 2.5rem;
+    }
+
+}
+a[href^="http://maps.google.com/maps"]{display:none !important}
+a[href^="https://maps.google.com/maps"]{display:none !important}
+
+.gmnoprint a, .gmnoprint span, .gm-style-cc {
+    display:none;
+}
+.gmnoprint div {
+    background:none !important;
 }

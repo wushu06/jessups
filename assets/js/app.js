@@ -39,6 +39,13 @@ $('#fullpage').fullpage({
         }
     }
 });
+$(window).on('load resize orientationchange', function() {
+    if (window.matchMedia("(max-width: 465px)").matches) {
+        $.fn.fullpage.setAutoScrolling(false);
+    }else {
+        $.fn.fullpage.setAutoScrolling(true);
+    }
+});
 
 //adding the action to the button
 $(document).on('click', '.moveTo1', function(){
@@ -56,25 +63,37 @@ $(document).on('click', '.moveTo4', function(){
 
 var arrowLeft = "<div class='slick-arrow arrow-left'><img class='slick-arrow arrow-left svg-inline' src='assets/img/arrow-left.svg' width='25'></div>",
     arrowRight = "<div class='slick-arrow arrow-right'><img class='slick-arrow arrow-right svg-inline' src='assets/img/arrow-right.svg' width='25'></div>";
-$('.slick').slick({
+$(window).on('load resize orientationchange', function() {
+    if (window.matchMedia("(max-width: 991px)").matches) {
+        $('.slick').slick({
+            dots: false,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            prevArrow: arrowLeft,
+            nextArrow: arrowRight,
+
+        });
+    } else{
+        if ($('.slick').hasClass('slick-initialized')) {
+            $('.slick').slick('unslick');
+        }
+    }
+});
+
+$('.w_slick').slick({
     dots: false,
-    infinite: false,
+    infinite: true,
     speed: 300,
-    slidesToShow: 4,
-    slidesToScroll: 4,
+    slidesToShow: 1,
+    slidesToScroll: 1,
     prevArrow: arrowLeft,
     nextArrow: arrowRight,
-    responsive: [
 
-        {
-            breakpoint: 781,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
-        }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
-    ]
 });
+$('.w_slick').on('beforeChange', function(event, slick, currentSlide, nextSlide){
+    // then let's do this before changing slides
+
+    console.log('before change');
+})
