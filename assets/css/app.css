@@ -7,7 +7,9 @@
  $brown = #bbb0a5;
  $golden = #A58242;
  */
-
+body {
+    font-weight: 100;
+}
 .js_logo {
     position: fixed;
     top: 30px;
@@ -26,9 +28,14 @@ a:hover, a:active {
     color: white;
     opacity: 0.6;
 }
+.desktop-only a:hover {
+    opacity: 1;
+    text-decoration: none;
+}
 p {
-    font-size: 18px;
-    line-height: 27px;
+    font-weight: 100;
+    line-height: 20px;
+    font-size: 16px;
     color: white;
 }
 
@@ -56,6 +63,7 @@ h1 {
 }
 .js_golden {
     color: #A58242;
+    font-weight: 600;
 }
 .js_nav {
     position: absolute;
@@ -67,7 +75,7 @@ h1 {
 .js_nav ul li{
     display: inline;
     padding:  30px;
-
+    font-weight: 400;
 
 }
 .js_nav ul li span{
@@ -114,7 +122,7 @@ span.moveTo4.js_addborder {
     outline: none;
     border-radius: 50%;
     border: 3px solid white;
-    opacity: 0.5;
+    opacity: 0.2;
 }
 button.moveTo1.js_addborder {
     opacity: 1;
@@ -141,10 +149,11 @@ button.moveTo4.js_addborder {
     height: 200%;
     content: '';
     background: white;
-    opacity: 0.4;
+    opacity: 0.2;
 }
 #service .v_wrapper {
     position: relative;
+    padding: 35px;
 }
 #service .v_wrapper .vertical-line {
     position: absolute;
@@ -155,7 +164,7 @@ button.moveTo4.js_addborder {
     height: 100%;
     content: '';
     background: white;
-    opacity: 0.4;
+    opacity: 0.2;
 }
 #service h2 {
     color: #3b3d63;
@@ -166,6 +175,9 @@ button.moveTo4.js_addborder {
     color: white;
     padding: 0 0 15px 15px;
     position: relative;
+    font-weight: 100;
+    line-height: 20px;
+    font-size: 16px;
 }
 #service ul li:before {
     position: absolute;
@@ -186,13 +198,19 @@ button.moveTo4.js_addborder {
 }
 .js_prfile_img{
     position: relative;
+
 }
 .js_prfile_img img{
     margin: auto;
 }
 .js_prfile_img:hover i {
-    color: white;
+    background: white;
     transition: 0.2s ease;
+}
+.js_prfile_img:hover i:before {
+
+    transition: 0.2s ease;
+    color: #e36335;
 }
 .js_prfile_img i {
     position: absolute;
@@ -200,14 +218,34 @@ button.moveTo4.js_addborder {
     left: 0;
     font-size: 60px;
     transform: translate(25%, 20%);
-    color:#e36335;
+    background: #e36335;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: table;
+}
+.fa-info:before {
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 34px;
+}
+.w_col {
+    padding: 30px;
 }
 .js_profile {
     border-radius: 50%;
+
+}
+.js_profile-content {
+    padding-left: 30px;
 }
 .js_profile-content h4 {
     color: #e36335;
-    margin: 30px 0;
+    margin: 50px 0;
+
+
 }
 .js_social {
    position: fixed;
@@ -261,7 +299,36 @@ button.moveTo4.js_addborder {
     margin: auto;
 }
 
+ul.slick-dots  {
+    margin: auto;
+    width: 100%;
+    max-width: 200px;
+    padding: 30px;
+}
+ul.slick-dots li {
+    display: inline-block;
+    margin: 0 10px;
+    background: transparent;
+    color: white;
+    width: 13px;
+    height: 13px;
+    outline: none;
+    border-radius: 50%;
+    border: 3px solid white;
+    opacity: 0.2;
+    cursor: pointer;
+    padding: 0 !important;
+}
+ul.slick-dots li:before {
+    display: none;
+}
 
+ul.slick-dots .slick-active {
+    opacity: 1;
+}
+ul.slick-dots li button {
+    display: none;
+}
 @media only screen and (max-width: 991px) {
     .desktop-only {
         display: none !important;
@@ -296,13 +363,16 @@ button.moveTo4.js_addborder {
 
     }
     #service .container {
-        width: 80%;
+        width: 100%;
     }
     #about .container {
-        width: 80%;
+        width: 100%;
     }
     div#fullpage {
 
+    }
+    h1, .js_heading {
+        text-align: left;
     }
     .js_nav {
         top: 100px;
@@ -321,6 +391,18 @@ button.moveTo4.js_addborder {
     }
     h1 {
         font-size: 2.5rem;
+    }
+    .js_anchors {
+        display: none;
+    }
+    .js_social {
+        right: 10px;
+    }
+    #service .v_wrapper, .js_profile-content {
+        padding: 0;
+    }
+    .col-md-12, .col-sm-12 {
+        padding: 20px !important;
     }
 
 }

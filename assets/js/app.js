@@ -66,11 +66,12 @@ var arrowLeft = "<div class='slick-arrow arrow-left'><img class='slick-arrow arr
 $(window).on('load resize orientationchange', function() {
     if (window.matchMedia("(max-width: 991px)").matches) {
         $('.slick').slick({
-            dots: false,
+            dots: true,
             infinite: true,
             speed: 300,
             slidesToShow: 1,
             slidesToScroll: 1,
+            arrows: false,
             prevArrow: arrowLeft,
             nextArrow: arrowRight,
 
@@ -83,14 +84,20 @@ $(window).on('load resize orientationchange', function() {
 });
 
 $('.w_slick').slick({
-    dots: false,
+    dots: true,
     infinite: true,
     speed: 300,
     slidesToShow: 1,
     slidesToScroll: 1,
+    arrows: false,
     prevArrow: arrowLeft,
     nextArrow: arrowRight,
 
+});
+$('.desktop-only').find('a[data-slide]').click(function(e) {
+    e.preventDefault();
+    var slideno = $(this).data('slide');
+    $('.w_slick').slick('slickGoTo', slideno - 1);
 });
 $('.w_slick').on('beforeChange', function(event, slick, currentSlide, nextSlide){
     // then let's do this before changing slides

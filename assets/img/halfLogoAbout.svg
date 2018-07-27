@@ -3,7 +3,7 @@
         <style>
             .cls-1{fill:#e36335;}
             svg {
-             opacity: 0.4;
+             opacity: 0.2;
             }
         </style>
     </defs>
