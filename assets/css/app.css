@@ -1,6 +1,12 @@
 * {
     box-sizing: border-box;
 }
+@font-face {
+    font-family: Calibri;
+    src: url(../calibri/Calibri.ttf);
+}
+
+
 /*
  $oragne = #e36335;
  $blue = #3b3d63;
@@ -9,12 +15,13 @@
  */
 body {
     font-weight: 100;
+    font-family:  Calibri;
 }
 .js_logo {
     position: fixed;
     top: 30px;
     left: 50px;
-    max-width: 180px;
+    max-width: 200px;
     z-index: 999;
     cursor: pointer;
 }
@@ -57,7 +64,7 @@ p {
 }
 h1 {
     color: white;
-    font-family: 'Open Sans', sans-serif;
+    font-family:  Calibri;
     font-weight: 100;
     font-size: 4rem;
 }
