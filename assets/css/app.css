@@ -43,7 +43,7 @@ p {
     font-weight: 100;
     line-height: 20px;
     font-size: 16px;
-    color: #3b3d63;
+    color: #645A50;
 }
 
 #home {
@@ -72,7 +72,7 @@ h1 {
     color:  #645A50;
     font-family:  Calibri;
     font-weight: 100;
-    font-size: 4rem;
+    font-size: 3rem;
 }
 .js_golden {
     color: #D7411D;
@@ -123,7 +123,7 @@ span.moveTo3.js_addborder {
     color: #e36335;
 }
 span.moveTo4.js_addborder {
-    color: #bbb0a5;
+    color: #e36335;
 }
 .js_anchors button {
     display: block;
@@ -188,7 +188,7 @@ button.moveTo4.js_addborder {
     font-size: 24px;
 }
 #service ul li {
-    color: #3b3d63;
+    color: #645A50;
     padding: 0 0 15px 15px;
     position: relative;
     font-weight: 100;

@@ -4,10 +4,6 @@
     <list default="true" id="da306fd1-6ab4-4a21-9dc0-f93a2bbf1772" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/app.css" afterPath="$PROJECT_DIR$/assets/css/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/halfLogo.svg" afterPath="$PROJECT_DIR$/assets/img/halfLogo.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/halfLogoFind.svg" afterPath="$PROJECT_DIR$/assets/img/halfLogoFind.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/halfLogoService.svg" afterPath="$PROJECT_DIR$/assets/img/halfLogoService.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/app.js" afterPath="$PROJECT_DIR$/assets/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/privacy.html" afterPath="$PROJECT_DIR$/privacy.html" />
     </list>
@@ -36,11 +32,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-482">
-              <caret line="74" column="62" lean-forward="true" selection-start-line="74" selection-start-column="62" selection-end-line="74" selection-end-column="62" />
+            <state relative-caret-position="242">
+              <caret line="357" column="96" lean-forward="false" selection-start-line="357" selection-start-column="96" selection-end-line="357" selection-end-column="96" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -62,21 +58,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="privacy.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="privacy.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/privacy.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+              <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="27" />
               <folding>
-                <element signature="e#597#602#0" expanded="true" />
-                <element signature="e#5990#5996#1" expanded="true" />
-                <element signature="e#6509#6515#1" expanded="true" />
-                <element signature="e#6675#6681#1" expanded="true" />
-                <element signature="e#6716#6722#1" expanded="true" />
-                <element signature="e#6966#6971#0" expanded="true" />
-                <element signature="e#7174#7180#1" expanded="true" />
-                <element signature="e#10629#10635#1" expanded="true" />
-                <element signature="e#12110#12116#1" expanded="true" />
+                <element signature="e#1181#1186#0" expanded="true" />
+                <element signature="e#6574#6580#1" expanded="true" />
+                <element signature="e#7093#7099#1" expanded="true" />
+                <element signature="e#7259#7265#1" expanded="true" />
+                <element signature="e#7300#7306#1" expanded="true" />
+                <element signature="e#7550#7555#0" expanded="true" />
+                <element signature="e#7758#7764#1" expanded="true" />
+                <element signature="e#11213#11219#1" expanded="true" />
+                <element signature="e#12694#12700#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,8 +91,8 @@
       <file leaf-file-name="app.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+            <state relative-caret-position="379">
+              <caret line="74" column="16" lean-forward="false" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -190,10 +186,10 @@
       <find>font-f</find>
       <find>js_logo</find>
       <find>font-fami</find>
-      <find>section</find>
       <find>#serv</find>
-      <find>#about</find>
       <find>log-c</find>
+      <find>section</find>
+      <find>#about</find>
     </findStrings>
     <replaceStrings>
       <replace>.main_section</replace>
@@ -217,14 +213,14 @@
         <option value="$PROJECT_DIR$/slider.html" />
         <option value="$PROJECT_DIR$/assets/img/marker.svg" />
         <option value="$PROJECT_DIR$/assets/css/slider.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/js/app.js" />
         <option value="$PROJECT_DIR$/assets/img/halfLogo.svg" />
         <option value="$PROJECT_DIR$/assets/img/halfLogoService.svg" />
         <option value="$PROJECT_DIR$/assets/img/halfLogoAbout.svg" />
         <option value="$PROJECT_DIR$/assets/img/halfLogoFind.svg" />
-        <option value="$PROJECT_DIR$/assets/css/app.css" />
         <option value="$PROJECT_DIR$/privacy.html" />
+        <option value="$PROJECT_DIR$/assets/css/app.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -353,12 +349,12 @@
       <workItem from="1533033879595" duration="19000" />
       <workItem from="1538492105754" duration="3058000" />
       <workItem from="1538497599495" duration="308000" />
-      <workItem from="1544712652107" duration="5329000" />
+      <workItem from="1544712652107" duration="5955000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53005000" />
+    <option name="totallyTimeSpent" value="53631000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -745,20 +741,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-482">
-          <caret line="74" column="62" lean-forward="true" selection-start-line="74" selection-start-column="62" selection-end-line="74" selection-end-column="62" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#22070#22075#0" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#section#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/img/halfLogo.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -791,10 +773,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/app.css">
+    <entry file="file://$PROJECT_DIR$/assets/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+        <state relative-caret-position="30">
+          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -807,28 +789,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/app.js">
+    <entry file="file://$PROJECT_DIR$/privacy.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="28" />
+        <state relative-caret-position="270">
+          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="27" />
+          <folding>
+            <element signature="e#1181#1186#0" expanded="true" />
+            <element signature="e#6574#6580#1" expanded="true" />
+            <element signature="e#7093#7099#1" expanded="true" />
+            <element signature="e#7259#7265#1" expanded="true" />
+            <element signature="e#7300#7306#1" expanded="true" />
+            <element signature="e#7550#7555#0" expanded="true" />
+            <element signature="e#7758#7764#1" expanded="true" />
+            <element signature="e#11213#11219#1" expanded="true" />
+            <element signature="e#12694#12700#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="74" column="16" lean-forward="false" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/privacy.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        <state relative-caret-position="242">
+          <caret line="357" column="96" lean-forward="false" selection-start-line="357" selection-start-column="96" selection-end-line="357" selection-end-column="96" />
           <folding>
-            <element signature="e#597#602#0" expanded="true" />
-            <element signature="e#5990#5996#1" expanded="true" />
-            <element signature="e#6509#6515#1" expanded="true" />
-            <element signature="e#6675#6681#1" expanded="true" />
-            <element signature="e#6716#6722#1" expanded="true" />
-            <element signature="e#6966#6971#0" expanded="true" />
-            <element signature="e#7174#7180#1" expanded="true" />
-            <element signature="e#10629#10635#1" expanded="true" />
-            <element signature="e#12110#12116#1" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#22070#22075#0" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#section#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
