@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: inherit
 }
+@font-face {
+    font-family: Calibri;
+    src: url(../calibri/Calibri.ttf);
+}
 body, html {
     height: 100%
 }
@@ -12,7 +16,7 @@ html {
 body {
     line-height: 1;
     font-size: 16px;
-    font-family: "Baloo Bhai", sans-serif;
+    font-family: Calibri;
     font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     -webkit-text-size-adjust: none;

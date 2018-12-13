@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da306fd1-6ab4-4a21-9dc0-f93a2bbf1772" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/calibri/CALIBRIB.TTF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/calibri/CALIBRII.TTF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/calibri/CALIBRIZ.TTF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/calibri/Calibri.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/calibri/sharefonts.net.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/logos/Jessups-Logo-1-RGB.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/logos/Jessups-Logo-2-RGB.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/logos/Jessups-Logo-3-RGB.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/app.css" afterPath="$PROJECT_DIR$/assets/css/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/app.js" afterPath="$PROJECT_DIR$/assets/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/slider.css" afterPath="$PROJECT_DIR$/assets/css/slider.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -66,11 +56,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="17" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+            <state relative-caret-position="45">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="6" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="slider.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/css/slider.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -148,7 +148,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>body</find>
       <find>#e36335</find>
       <find>slider-navigation</find>
       <find>anch</find>
@@ -173,11 +172,12 @@
       <find>container</find>
       <find>w_slic</find>
       <find>our ser</find>
-      <find>font-fami</find>
       <find>boots</find>
       <find>logo</find>
-      <find>js_logo</find>
       <find>log-c</find>
+      <find>font-f</find>
+      <find>font-fami</find>
+      <find>js_logo</find>
     </findStrings>
     <replaceStrings>
       <replace>.main_section</replace>
@@ -198,7 +198,6 @@
         <option value="$PROJECT_DIR$/assets/img/half-logo.svg" />
         <option value="$PROJECT_DIR$/assets/img/jessups_logo.svg" />
         <option value="$PROJECT_DIR$/assets/js/tweenslide.js" />
-        <option value="$PROJECT_DIR$/assets/css/slider.css" />
         <option value="$PROJECT_DIR$/slider.html" />
         <option value="$PROJECT_DIR$/assets/img/marker.svg" />
         <option value="$PROJECT_DIR$/assets/img/halfLogoAbout.svg" />
@@ -209,6 +208,7 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/js/app.js" />
         <option value="$PROJECT_DIR$/assets/css/app.css" />
+        <option value="$PROJECT_DIR$/assets/css/slider.css" />
       </list>
     </option>
   </component>
@@ -220,8 +220,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="81" />
-    <option name="y" value="90" />
+    <option name="x" value="126" />
+    <option name="y" value="23" />
     <option name="width" value="2336" />
     <option name="height" value="1321" />
   </component>
@@ -330,12 +330,12 @@
       <workItem from="1533033879595" duration="19000" />
       <workItem from="1538492105754" duration="3058000" />
       <workItem from="1538497599495" duration="308000" />
-      <workItem from="1544712652107" duration="3576000" />
+      <workItem from="1544712652107" duration="3839000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51252000" />
+    <option name="totallyTimeSpent" value="51515000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -347,7 +347,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="81" y="90" width="2336" height="1321" extended-state="0" />
+    <frame x="126" y="23" width="2336" height="1321" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15300785" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -661,13 +661,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/slider.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="58" column="14" lean-forward="false" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/slider.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
@@ -779,6 +772,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="38" column="71" lean-forward="false" selection-start-line="38" selection-start-column="71" selection-end-line="38" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="6" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="337">
@@ -793,18 +802,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/app.js">
+    <entry file="file://$PROJECT_DIR$/assets/css/slider.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="38" column="71" lean-forward="false" selection-start-line="38" selection-start-column="71" selection-end-line="38" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="17" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        <state relative-caret-position="120">
+          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
           <folding />
         </state>
       </provider>
