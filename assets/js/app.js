@@ -1,6 +1,6 @@
 $('#fullpage').fullpage({
     anchors: ['page1', 'page2', 'page3', 'page4'],
-    sectionsColor: ['#3b3d63','#e36335' , '#bbb0a5', '#e36335'],
+    sectionsColor: ['#d6d6d6','#efefef' , '#d6d6d6', '#efefef'],
     afterLoad: function(anchorLink, index) {
         var loadedSection = $(this);
         var logo = $('.js_logo');
@@ -10,6 +10,7 @@ $('#fullpage').fullpage({
             $('.log-c').css({
                 'fill': '#A58242'
             });
+
             $('.logo-img').attr('src', 'assets/img/logos/Jessups-Logo-2-RGB.svg');
             $('.moveTo1').addClass('js_addborder').siblings().removeClass('js_addborder');
             $('.js_nav_list').find('span').removeClass('js_addborder');
@@ -19,6 +20,7 @@ $('#fullpage').fullpage({
             $('.log-c').css({
                 'fill': '#3b3d63'
             });
+
             $('.logo-img').attr('src', 'assets/img/logos/Jessups-Logo-1-RGB.svg');
 
             $('.moveTo2').addClass('js_addborder').siblings().removeClass('js_addborder');
@@ -28,7 +30,7 @@ $('#fullpage').fullpage({
             $('.log-c').css({
                 'fill': '#e36335'
             });
-            $('.logo-img').attr('src', 'assets/img/logos/Jessups-Logo-3-RGB.svg');
+            $('.logo-img').attr('src', 'assets/img/logos/Jessups-Logo-2-RGB.svg');
             $('.moveTo3').addClass('js_addborder').siblings().removeClass('js_addborder');
             $('.moveTo3').parent().siblings().children().removeClass('js_addborder');
         }

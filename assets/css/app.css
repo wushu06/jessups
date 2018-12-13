@@ -29,11 +29,11 @@ body {
     width: 100%;
 }
 a {
-    color: white;
+    color: #645A50;
 }
 a:hover, a:active {
-    color: white;
-    opacity: 0.6;
+    color: #e36335;
+
 }
 .desktop-only a:hover {
     opacity: 1;
@@ -43,7 +43,7 @@ p {
     font-weight: 100;
     line-height: 20px;
     font-size: 16px;
-    color: white;
+    color: #3b3d63;
 }
 
 #home {
@@ -55,21 +55,27 @@ p {
 #about {
     background: url('../img/halfLogoAbout.svg') no-repeat;
 }
+#about h1 {
+    color: #e36335;
+}
 #find {
     background: url('../img/halfLogoFind.svg') no-repeat;
+}
+#find h1 {
+    color: #e36335;
 }
 #home, #about, #service, #find {
     background-size: 550px;
     background-position: 0px 67vh;
 }
 h1 {
-    color: white;
+    color:  #645A50;
     font-family:  Calibri;
     font-weight: 100;
     font-size: 4rem;
 }
 .js_golden {
-    color: #A58242;
+    color: #D7411D;
     font-weight: 600;
 }
 .js_nav {
@@ -87,7 +93,7 @@ h1 {
 }
 .js_nav ul li span{
     cursor: pointer;
-    color: white;
+    color: #645A50;
 }
 .js_nav ul li span:hover{
     opacity: 0.5;
@@ -111,7 +117,7 @@ h1 {
 }
 
 span.moveTo2.js_addborder {
-    color: #3b3d63;
+    color: #D7411D;
 }
 span.moveTo3.js_addborder {
     color: #e36335;
@@ -128,7 +134,7 @@ span.moveTo4.js_addborder {
     height: 13px;
     outline: none;
     border-radius: 50%;
-    border: 3px solid white;
+    border: 3px solid #645A50;
     opacity: 0.2;
 }
 button.moveTo1.js_addborder {
@@ -153,9 +159,9 @@ button.moveTo4.js_addborder {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 2px;
-    height: 200%;
+    height: 100%;
     content: '';
-    background: white;
+    background: #645A50;
     opacity: 0.2;
 }
 #service .v_wrapper {
@@ -173,13 +179,16 @@ button.moveTo4.js_addborder {
     background: white;
     opacity: 0.2;
 }
+#service h1 {
+    color: #D7411D;
+}
 #service h2 {
-    color: #3b3d63;
+    color: #D7411D;
     margin-bottom: 20px;
     font-size: 24px;
 }
 #service ul li {
-    color: white;
+    color: #3b3d63;
     padding: 0 0 15px 15px;
     position: relative;
     font-weight: 100;
@@ -192,7 +201,7 @@ button.moveTo4.js_addborder {
     left: 0;
     transform: translate(-50%, -50%);
     content: '';
-    background: white;
+    background: #D7411D;
     width: 8px;
     height: 8px;
     border-radius: 50%;
@@ -282,7 +291,7 @@ button.moveTo4.js_addborder {
     right: -20px;
 }
 #find h2 {
-    color: #bbb0a5;
+    color: #e36335;
     margin-bottom: 20px;
     font-size: 24px;
 }
