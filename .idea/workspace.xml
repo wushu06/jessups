@@ -5,7 +5,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/app.css" afterPath="$PROJECT_DIR$/assets/css/app.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/privacy.html" afterPath="$PROJECT_DIR$/privacy.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -91,8 +90,8 @@
       <file leaf-file-name="app.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="74" column="16" lean-forward="false" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
+            <state relative-caret-position="859">
+              <caret line="359" column="24" lean-forward="true" selection-start-line="359" selection-start-column="24" selection-end-line="359" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -160,7 +159,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>i {</find>
       <find>slider</find>
       <find>vertica</find>
       <find>js_prfile_img</find>
@@ -188,8 +186,9 @@
       <find>font-fami</find>
       <find>#serv</find>
       <find>log-c</find>
-      <find>section</find>
       <find>#about</find>
+      <find>section</find>
+      <find>vertical</find>
     </findStrings>
     <replaceStrings>
       <replace>.main_section</replace>
@@ -349,12 +348,12 @@
       <workItem from="1533033879595" duration="19000" />
       <workItem from="1538492105754" duration="3058000" />
       <workItem from="1538497599495" duration="308000" />
-      <workItem from="1544712652107" duration="5955000" />
+      <workItem from="1544712652107" duration="6602000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53631000" />
+    <option name="totallyTimeSpent" value="54278000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -809,8 +808,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="74" column="16" lean-forward="false" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
+        <state relative-caret-position="859">
+          <caret line="359" column="24" lean-forward="true" selection-start-line="359" selection-start-column="24" selection-end-line="359" selection-end-column="24" />
           <folding />
         </state>
       </provider>

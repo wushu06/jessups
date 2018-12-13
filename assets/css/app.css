@@ -176,7 +176,7 @@ button.moveTo4.js_addborder {
     width: 2px;
     height: 100%;
     content: '';
-    background: white;
+    background: #645A50;
     opacity: 0.2;
 }
 #service h1 {
@@ -306,7 +306,7 @@ button.moveTo4.js_addborder {
     width: 2px;
     height: 120%;
     content: '';
-    background: white;
+    background:#645A50;
     opacity: 0.4;
 }
 #map {
@@ -325,12 +325,12 @@ ul.slick-dots li {
     display: inline-block;
     margin: 0 10px;
     background: transparent;
-    color: white;
+    color: #645A50;
     width: 13px;
     height: 13px;
     outline: none;
     border-radius: 50%;
-    border: 3px solid white;
+    border: 3px solid #645A50;
     opacity: 0.2;
     cursor: pointer;
     padding: 0 !important;
