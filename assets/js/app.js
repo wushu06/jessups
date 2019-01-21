@@ -1,6 +1,6 @@
 $('#fullpage').fullpage({
     anchors: ['page1', 'page2', 'page3', 'page4'],
-    sectionsColor: ['#d6d6d6','#efefef' , '#d6d6d6', '#efefef'],
+    sectionsColor: ['#d6d6d6','#3b3d63' , '#d6d6d6', '#efefef'],
     afterLoad: function(anchorLink, index) {
         var loadedSection = $(this);
         var logo = $('.js_logo');
@@ -21,7 +21,7 @@ $('#fullpage').fullpage({
                 'fill': '#3b3d63'
             });
 
-            $('.logo-img').attr('src', 'assets/img/logos/Jessups-Logo-1-RGB.svg');
+            $('.logo-img').attr('src', 'assets/img/logos/Jessups-Logo-white-RGB.svg');
 
             $('.moveTo2').addClass('js_addborder').siblings().removeClass('js_addborder');
             $('.moveTo2').parent().siblings().children().removeClass('js_addborder');
