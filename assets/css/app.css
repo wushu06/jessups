@@ -111,11 +111,13 @@ h1 {
     position: fixed;
     top:50%;
     right: 45px;
-    transform: translateY(-50%)t;
+    transform: translateY(-50%);
     z-index: 999;
     cursor: pointer;
 }
-
+span.moveTo1.js_addborder {
+    color: #e36335;
+}
 span.moveTo2.js_addborder {
     color: white;
 }
@@ -369,7 +371,7 @@ ul.slick-dots li button {
         padding: 20px !important;
     }
 }
-@media only screen and (max-width: 820px) {
+@media only screen and (max-width: 920px) {
     #home, #about, #service, #find {
         background-size: 85%;
     }

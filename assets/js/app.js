@@ -15,6 +15,7 @@ $('#fullpage').fullpage({
             $('.moveTo1').addClass('js_addborder').siblings().removeClass('js_addborder');
             $('.js_nav_list').find('span').removeClass('js_addborder');
             $('.moveTo1').parent().siblings().children().removeClass('js_addborder');
+            $('.moveTo1').addClass('js_addborder').siblings().removeClass('js_addborder');
         }
         if (index == 2) {
             $('.log-c').css({
