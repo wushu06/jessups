@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="da306fd1-6ab4-4a21-9dc0-f93a2bbf1772" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/app.js" afterPath="$PROJECT_DIR$/assets/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/app.css" afterPath="$PROJECT_DIR$/assets/css/app.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,8 +34,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="314" column="109" lean-forward="true" selection-start-line="314" selection-start-column="109" selection-end-line="314" selection-end-column="109" />
+            <state relative-caret-position="319">
+              <caret line="93" column="24" lean-forward="false" selection-start-line="93" selection-start-column="24" selection-end-line="93" selection-end-column="31" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -49,8 +49,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="23" column="94" lean-forward="false" selection-start-line="23" selection-start-column="94" selection-end-line="23" selection-end-column="94" />
+            <state relative-caret-position="-501">
+              <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -69,8 +69,8 @@
       <file leaf-file-name="app.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2430">
-              <caret line="162" column="16" lean-forward="false" selection-start-line="162" selection-start-column="16" selection-end-line="162" selection-end-column="16" />
+            <state relative-caret-position="169">
+              <caret line="371" column="38" lean-forward="false" selection-start-line="371" selection-start-column="38" selection-end-line="371" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -88,7 +88,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>v_wr</find>
       <find>api</find>
       <find>s_addborder</find>
       <find>background</find>
@@ -106,7 +105,6 @@
       <find>boots</find>
       <find>logo</find>
       <find>font-f</find>
-      <find>js_logo</find>
       <find>font-fami</find>
       <find>#serv</find>
       <find>#about</find>
@@ -118,6 +116,8 @@
       <find>service</find>
       <find>how we w</find>
       <find>#service ul li</find>
+      <find>max-w</find>
+      <find>js_logo</find>
     </findStrings>
     <replaceStrings>
       <replace>.main_section</replace>
@@ -147,9 +147,9 @@
         <option value="$PROJECT_DIR$/assets/img/halfLogoFind.svg" />
         <option value="$PROJECT_DIR$/privacy.html" />
         <option value="$PROJECT_DIR$/assets/img/logos/Jessups-Logo-white-RGB.svg" />
-        <option value="$PROJECT_DIR$/assets/css/app.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/js/app.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/assets/css/app.css" />
       </list>
     </option>
   </component>
@@ -287,12 +287,12 @@
       <workItem from="1544712652107" duration="6673000" />
       <workItem from="1547810907272" duration="4089000" />
       <workItem from="1548081380926" duration="2337000" />
-      <workItem from="1548345642831" duration="560000" />
+      <workItem from="1548345642831" duration="1086000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61335000" />
+    <option name="totallyTimeSpent" value="61861000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -714,18 +714,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2430">
-          <caret line="162" column="16" lean-forward="false" selection-start-line="162" selection-start-column="16" selection-end-line="162" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="314" column="109" lean-forward="true" selection-start-line="314" selection-start-column="109" selection-end-line="314" selection-end-column="109" />
+        <state relative-caret-position="319">
+          <caret line="93" column="24" lean-forward="false" selection-start-line="93" selection-start-column="24" selection-end-line="93" selection-end-column="31" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -735,10 +727,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="371" column="38" lean-forward="false" selection-start-line="371" selection-start-column="38" selection-end-line="371" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="23" column="94" lean-forward="false" selection-start-line="23" selection-start-column="94" selection-end-line="23" selection-end-column="94" />
+        <state relative-caret-position="-501">
+          <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="30" />
           <folding />
         </state>
       </provider>
