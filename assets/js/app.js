@@ -11,7 +11,7 @@ $('#fullpage').fullpage({
                 'fill': '#A58242'
             });
 
-            $('.logo-img').attr('src', 'assets/img/logos/Jessups-Logo-2-RGB.svg');
+            $('.logo-img').attr('src', 'assets/img/new-logos/Jessups-Logo-Strapline-2-RGB.svg');
             $('.moveTo1').addClass('js_addborder').siblings().removeClass('js_addborder');
             $('.js_nav_list').find('span').removeClass('js_addborder');
             $('.moveTo1').parent().siblings().children().removeClass('js_addborder');
@@ -21,7 +21,7 @@ $('#fullpage').fullpage({
                 'fill': '#3b3d63'
             });
 
-            $('.logo-img').attr('src', 'assets/img/logos/Jessups-Logo-white-RGB.svg');
+            $('.logo-img').attr('src', 'assets/img/new-logos/Jessups-Logo-Caps-Strapline-5.svg');
 
             $('.moveTo2').addClass('js_addborder').siblings().removeClass('js_addborder');
             $('.moveTo2').parent().siblings().children().removeClass('js_addborder');
@@ -30,7 +30,7 @@ $('#fullpage').fullpage({
             $('.log-c').css({
                 'fill': '#e36335'
             });
-            $('.logo-img').attr('src', 'assets/img/logos/Jessups-Logo-2-RGB.svg');
+            $('.logo-img').attr('src', 'assets/img/new-logos/Jessups-Logo-Strapline-2-RGB.svg');
             $('.moveTo3').addClass('js_addborder').siblings().removeClass('js_addborder');
             $('.moveTo3').parent().siblings().children().removeClass('js_addborder');
         }
@@ -38,7 +38,7 @@ $('#fullpage').fullpage({
             $('.log-c').css({
                 'fill': '#bbb0a5'
             });
-            $('.logo-img').attr('src', 'assets/img/logos/Jessups-Logo-1-RGB.svg');
+            $('.logo-img').attr('src', 'assets/img/new-logos/Jessups-Logo-Strapline-RGB.svg');
             $('.moveTo4').addClass('js_addborder').siblings().removeClass('js_addborder');
             $('.moveTo4').parent().siblings().children().removeClass('js_addborder');
         }
