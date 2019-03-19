@@ -8,7 +8,7 @@
 
 
 /*
- $oragne = #e36335;
+ $oragne = #D7411D;
  $blue = #3b3d63;
  $brown = #bbb0a5;
  $golden = #A58242;
@@ -32,7 +32,7 @@ a {
     color: #645A50;
 }
 a:hover, a:active {
-    color: #e36335;
+    color: #D7411D;
 
 }
 .desktop-only a:hover {
@@ -42,7 +42,7 @@ a:hover, a:active {
 p {
     font-weight: 100;
     line-height: 20px;
-    font-size: 16px;
+    font-size: 15px;
     color: #645A50;
 }
 
@@ -56,13 +56,13 @@ p {
     background: url('../img/halfLogoAbout.svg') no-repeat;
 }
 #about h1 {
-    color: #e36335;
+    color: #D7411D;
 }
 #find {
     background: url('../img/halfLogoFind.svg') no-repeat;
 }
 #find h1 {
-    color: #e36335;
+    color: #D7411D;
 }
 #home, #about, #service, #find {
     background-size: 550px;
@@ -116,16 +116,16 @@ h1 {
     cursor: pointer;
 }
 span.moveTo1.js_addborder {
-    color: #e36335;
+    color: #D7411D;
 }
 span.moveTo2.js_addborder {
     color: white;
 }
 span.moveTo3.js_addborder {
-    color: #e36335;
+    color: #D7411D;
 }
 span.moveTo4.js_addborder {
-    color: #e36335;
+    color: #D7411D;
 }
 .js_anchors button {
     display: block;
@@ -234,7 +234,7 @@ button.moveTo4.js_addborder {
 .js_prfile_img:hover i:before {
 
     transition: 0.2s ease;
-    color: #e36335;
+    color: #D7411D;
 }
 .js_prfile_img i {
     position: absolute;
@@ -242,7 +242,7 @@ button.moveTo4.js_addborder {
     left: 0;
     font-size: 60px;
     transform: translate(25%, 20%);
-    background: #e36335;
+    background: #D7411D;
     height: 60px;
     width: 60px;
     border-radius: 50%;
@@ -266,8 +266,8 @@ button.moveTo4.js_addborder {
     padding-left: 30px;
 }
 .js_profile-content h4 {
-    color: #e36335;
-    margin: 50px 0;
+    color: #D7411D;
+    margin: 15px 0 0;
 
 
 }
@@ -285,6 +285,17 @@ button.moveTo4.js_addborder {
 .mobile-nav {
     display: none;
 }
+#about   .vertical-line {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    width: 2px;
+    height: 80%;
+    content: '';
+    background:#645A50;
+    opacity: 0.4;
+}
 
 .slick-arrow {
     position: absolute;
@@ -299,7 +310,7 @@ button.moveTo4.js_addborder {
     right: -20px;
 }
 #find h2 {
-    color: #e36335;
+    color: #D7411D;
     margin-bottom: 20px;
     font-size: 24px;
 }

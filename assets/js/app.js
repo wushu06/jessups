@@ -29,7 +29,7 @@ $('#fullpage').fullpage({
         }
         if (index == 3) {
             $('.log-c').css({
-                'fill': '#e36335'
+                'fill': '#D7411D'
             });
             $('.logo-img').attr('src', 'assets/img/new-logos/Jessups-Logo-Strapline-2-RGB.svg');
             $('.moveTo3').addClass('js_addborder').siblings().removeClass('js_addborder');
