@@ -43,20 +43,20 @@ p {
     font-weight: 100;
     line-height: 20px;
     font-size: 15px;
-    color: #645A50;
+    color: white;
 }
 
 #home {
     background: url('../img/halfLogo.svg') no-repeat;
 }
 #service {
-    background: url('../img/halfLogoService.svg') no-repeat;
-}
-#about {
     background: url('../img/halfLogoAbout.svg') no-repeat;
 }
+#about {
+    background: url('../img/halfLogo.svg') no-repeat;
+}
 #about h1 {
-    color: #D7411D;
+    color: #A58242;
 }
 #find {
     background: url('../img/halfLogoFind.svg') no-repeat;
@@ -69,13 +69,13 @@ p {
     background-position: 0 100%;
 }
 h1 {
-    color:  #645A50;
+    color:  white;
     font-family:  Calibri;
     font-weight: 100;
     font-size: 3rem;
 }
 .js_golden {
-    color: #D7411D;
+    color: #A58242;
     font-weight: 600;
 }
 .js_nav {
@@ -116,13 +116,13 @@ h1 {
     cursor: pointer;
 }
 span.moveTo1.js_addborder {
-    color: #D7411D;
-}
-span.moveTo2.js_addborder {
     color: white;
 }
-span.moveTo3.js_addborder {
+span.moveTo2.js_addborder {
     color: #D7411D;
+}
+span.moveTo3.js_addborder {
+    color: white;
 }
 span.moveTo4.js_addborder {
     color: #D7411D;
@@ -190,7 +190,7 @@ button.moveTo4.js_addborder {
     font-size: 24px;
 }
 #service ul li {
-    color: white;
+    color: #645A50;
     padding: 0 0 15px 15px;
     position: relative;
     font-weight: 100;
@@ -203,7 +203,7 @@ button.moveTo4.js_addborder {
     left: 0;
     transform: translate(-50%, -50%);
     content: '';
-    background: #A58242;
+    background: #D7411D;
     width: 8px;
     height: 8px;
     border-radius: 50%;
@@ -211,10 +211,10 @@ button.moveTo4.js_addborder {
 
 }
 #service p {
-    color: white;
+    color: #645A50;
 }
 #service h1, #service h2 {
-    color: #A58242 !important;
+    color: #D7411D !important;
 }
 .js_heading {
     text-align: center;
@@ -266,7 +266,7 @@ button.moveTo4.js_addborder {
     padding-left: 30px;
 }
 .js_profile-content h4 {
-    color: #D7411D;
+    color: #A58242;
     margin: 15px 0 0;
 
 
@@ -313,6 +313,9 @@ button.moveTo4.js_addborder {
     color: #D7411D;
     margin-bottom: 20px;
     font-size: 24px;
+}
+#find p {
+    color: #645A50;
 }
 #find .v_wrapper {
     position: relative;
