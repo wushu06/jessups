@@ -68,6 +68,10 @@ p {
     background-size: 550px;
     background-position: 0 100%;
 }
+#home {
+    background-size: 800px;
+
+}
 h1 {
     color:  white;
     font-family:  Calibri;
